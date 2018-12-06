@@ -11,6 +11,12 @@
   "license": "MIT",
   "author": "Kevin Mees <kev.mees@gmail.com>",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "register.js",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "global": "^4.3.2"
   },
