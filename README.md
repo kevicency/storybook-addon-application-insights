@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/storybook-addon-application-insights.svg)](https://www.npmjs.com/package/storybook-addon-application-insights)
+
 # storybook-addon-application-insights
 
 [Storybook](https://storybook.js.org) Addon for tracking viewed Stories as page views in [Application Insights](https://azure.microsoft.com/services/application-insights/).
@@ -25,8 +27,7 @@ import 'storybook-addon-application-insights/register'
      ```javascript
      // only set it in production environments to prevent tracking pageviews during development
      if (process.env.NODE_ENV === 'production') {
-       window.STORYBOOK_INSTRUMENTATION_KEY =
-         '00000000-0000-0000-0000-000000000000'
+       window.STORYBOOK_INSTRUMENTATION_KEY = '00000000-0000-0000-0000-000000000000'
      }
      ```
    - or better, as an env variable during your storybook build
