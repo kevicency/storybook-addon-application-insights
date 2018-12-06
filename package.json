@@ -1,0 +1,24 @@
+{
+  "name": "storybook-addon-application-insights",
+  "version": "1.0.0",
+  "description": "Application Insights tracking for Storybook",
+  "keywords": [
+    "addon",
+    "application-insights",
+    "storybook"
+  ],
+  "repository": "https://github.com/kmees/storybook-addon-application-insights",
+  "license": "MIT",
+  "author": "Kevin Mees <kev.mees@gmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "global": "^4.3.2"
+  },
+  "devDependencies": {
+    "@storybook/addons": "^4.0.12",
+    "applicationinsights-js": "^1.0.20"
+  },
+  "peerDependencies": {
+    "applicationinsights-js": "^1"
+  }
+}
