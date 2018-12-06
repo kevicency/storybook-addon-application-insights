@@ -25,6 +25,7 @@
     "applicationinsights-js": "^1.0.20"
   },
   "peerDependencies": {
+    "@storybook/addons": "^4",
     "applicationinsights-js": "^1"
   }
 }
